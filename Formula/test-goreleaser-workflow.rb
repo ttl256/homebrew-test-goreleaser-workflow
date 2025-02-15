@@ -5,12 +5,12 @@
 class TestGoreleaserWorkflow < Formula
   desc "Software to test goreleaser workflow"
   homepage "https://github.com/ttl256/test-goreleaser-workflow"
-  version "0.0.11"
+  version "0.0.12"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.11/test-goreleaser-workflow_0.0.11_darwin_amd64.tar.gz"
-      sha256 "d7f5a5ccb2336f00dd1606889ab07a53fc1770f8b1b566bc955e74c38b4bd86c"
+      url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.12/test-goreleaser-workflow_0.0.12_darwin_amd64.tar.gz"
+      sha256 "c54f3d19f06372671295ef8faee6fb4a4d69f66a018fafd5041680340ea296d3"
 
       def install
         bin.install "test-goreleaser-workflow"
@@ -24,8 +24,8 @@ class TestGoreleaserWorkflow < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.11/test-goreleaser-workflow_0.0.11_darwin_arm64.tar.gz"
-      sha256 "80d2011f3acec77032413b259ee1736a14393091438cd947e444865c9a7aacaa"
+      url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.12/test-goreleaser-workflow_0.0.12_darwin_arm64.tar.gz"
+      sha256 "8010f155d73dcc3f2c055bf7d1138402e62f95611dc420a00236c9fa28404b89"
 
       def install
         bin.install "test-goreleaser-workflow"
@@ -43,8 +43,8 @@ class TestGoreleaserWorkflow < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.11/test-goreleaser-workflow_0.0.11_linux_amd64.tar.gz"
-        sha256 "44f8a6417d20d212f82927c669e763e5794a31987799122872c3c0ec7d501d17"
+        url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.12/test-goreleaser-workflow_0.0.12_linux_amd64.tar.gz"
+        sha256 "9141b94f36844d3897b6d78d1cd349dc4a77c97b59ecb43af3ade244e0134315"
 
         def install
           bin.install "test-goreleaser-workflow"
@@ -60,8 +60,8 @@ class TestGoreleaserWorkflow < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.11/test-goreleaser-workflow_0.0.11_linux_arm64.tar.gz"
-        sha256 "794dc4a4ef4263bd1126c60f21dc0b2c76ccc87837b6ad5c0c481dbd19cd4793"
+        url "https://github.com/ttl256/test-goreleaser-workflow/releases/download/v0.0.12/test-goreleaser-workflow_0.0.12_linux_arm64.tar.gz"
+        sha256 "2ec2a0f2958e6f9a8beee089d7ecdae4ce81908c6b24c7f734f15a2e2ec9f4c8"
 
         def install
           bin.install "test-goreleaser-workflow"
